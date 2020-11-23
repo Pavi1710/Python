@@ -1,0 +1,2 @@
+str="MY FIRST TASK"
+print(str[3:])
