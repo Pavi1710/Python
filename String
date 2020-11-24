@@ -1,2 +1,21 @@
+"""TASK-1"""
 str="MY FIRST TASK"
 print(str[3:])
+"""TASK-2.1"""
+a,b,c=10,10,10
+print(round (a/10,2))
+print(round (b/50,2))
+print(round (c/60,2))
+"""TASK-2.2"""
+a="ROVER"
+print(a.replace("V","G"))
+"""TASK-2.3"""
+a=1.111
+c=2
+print("before-value of a:%d",a)
+print("before-value of c:%d",c)
+temp=a
+a=c
+c=temp
+print("after-value of a:%d",a)
+print("after-value of c:%d",c)
