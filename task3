@@ -1,0 +1,26 @@
+"""TASK 3.1"""
+dict1={"1":"ONE","2":"TWO","3":"THREE"}
+dict2={"4":"FOUR","5":"FIVE","6":"SIX"}
+dict1.update(dict2)
+print(dict1)
+"""TASK 3.2"""
+print("the value removed dict is")
+dict1.pop("1")
+print(dict1)
+"""TASK 3.3"""
+a=[]
+b=[]
+n=int(input("enter size"))
+for i in range(0,n):
+    a.append(input())
+for i in range(0,n):
+    b.append(input())
+Dict3=dict(zip(a,b))
+print(Dict3)
+"""TASK 3.4"""
+set1={"hi","hello","vanakam","namasthe"}
+print(len(set1))
+"""TASK 3.5"""
+set2={"1","2","3","4"}
+set3={"1","5","3","8","9"}
+print(set2-set3)
