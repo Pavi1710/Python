@@ -10,5 +10,5 @@ CALC(a,b)
 """TASK-5.2"""
 def covid():
     name=input("name=")
-    print("The patient %s temperature is 98"%(name))
+    print("The patient %s temperature is 98 degree"%(name))
 covid()
