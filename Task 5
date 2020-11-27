@@ -1,0 +1,15 @@
+"""TASK-5.1"""
+def CALC(a,b):
+    print("Addition-> %d+%d=%d"%(a,b,a+b))
+    print("Subtraction-> %d-%d=%d"%(a,b,a-b))
+    print("Division-> %d/%d=%d"%(a,b,a//b))
+    print("Multiplication-> %d*%d=%d"%(a,b,a*b))
+a=int(input("1st num"))
+b=int(input("2nd num"))
+CALC(a,b)
+"""TASK-5.2"""
+def covid():
+    name=input("name=")
+    temp=float(input("temp="))
+    print("NAME OF PATIENT=%s\nTEMP(98deg)=%0.2f"%(name,temp))
+covid()
