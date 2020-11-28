@@ -53,7 +53,7 @@ today = date.today()
 a=today.year-bday.year
 print("Your age is %d years"%(a))
 if(today==bday):
-    print("HAPPY BIRTHDAY")
+    print("HAPPY BIRTHDAY!!!!")
 """TASK-6.8"""
 import math
 print("Sin90=%d"%(math.sin(math.pi/2)))
