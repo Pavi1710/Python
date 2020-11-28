@@ -52,7 +52,7 @@ bday=date(1999,12,1)
 today = date.today()
 a=today.year-bday.year
 print("Your age is %d years"%(a))
-if(today==bday):
+if((today.month==bday.month)and(today.day==bday.day)):
     print("HAPPY BIRTHDAY!!!!")
 """TASK-6.8"""
 import math
