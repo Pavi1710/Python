@@ -47,10 +47,13 @@ for i in range(0,len(lis)):
 print(pos)
 print(neg)
 """TASK-6.7"""
-n=int(input("enter days"))
-a=n//365
-b=n%365
-print("Your age is %d years %d days"%(a,b))
+from datetime import date
+bday=date(1999,12,1)
+today = date.today()
+a=today.year-bday.year
+print("Your age is %d years"%(a))
+if(today==bday):
+    print("HAPPY BIRTHDAY")
 """TASK-6.8"""
 import math
 print("Sin90=%d"%(math.sin(math.pi/2)))
